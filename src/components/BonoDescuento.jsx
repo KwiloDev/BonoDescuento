@@ -180,7 +180,7 @@ export default function BonoDescuento() {
         className="bono-input"
         placeholder="Código (ej: feria20)"
         value={codigo}
-        onChange={(e) => setCodigo(e.target.value.toLowerCase())}
+        onChange={(e) => setCodigo(e.target.value)}
       />
 
       <input
